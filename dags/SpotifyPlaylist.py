@@ -68,8 +68,8 @@ def get_song_df(data):
     return song_df
 
 def getdata():
-    client_id = '80ad554d98a4482db3673ce9fa9f51a7'
-    client_secret = 'd5e9b24f5631408ca91ccedfc8961d58'
+    client_id = ''
+    client_secret = ''
 
     client_credentials_manager = SpotifyClientCredentials(client_id, client_secret)
     sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)
